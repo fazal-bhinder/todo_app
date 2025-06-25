@@ -12,6 +12,9 @@ A clean, modern, and fully functional **Todo List app** built with:
 **Backend API (deployed)**  
 ➡️ https://todo-backend-ve5i.onrender.com/tasks
 
+**Frontend (deployed)**  
+➡️ https://todo-frontend-flame-psi.vercel.app/
+
 ---
 
 ## 📂 Project Structure
@@ -91,11 +94,3 @@ npm run dev
 6. Click on the refresh button to fetch the updated task list
 7. Click on the task to mark it as complete
 
----
-
-## 📌 Deployment Notes
-
-- Backend is deployed on Render:
-    https://todo-backend-ve5i.onrender.com/tasks
-
-- Frontend is deployed Vercel
