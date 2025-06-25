@@ -1,12 +1,101 @@
-# React + Vite
+# 📝 Todo List Fullstack App (React + Node.js + Express)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and fully functional **Todo List app** built with:
+- 🌐 **React (Vite) + Tailwind CSS + Lucide Icons** for the frontend
+- ⚙️ **Node.js + Express** backend with in-memory datastore
+- ☁️ Deployed backend on **Render**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Demo
 
-## Expanding the ESLint configuration
+**Backend API (deployed)**  
+➡️ https://todo-backend-ve5i.onrender.com/tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+➡️ todo-frontend # React frontend (Vite + Tailwind + Lucide)
+─ App.jsx
+─ package.json
+─ vite.config.js
+
+➡️ todo-backend # Node.js + Express backend
+─ server.js
+─ package.json
+
+---
+
+## 🚀 Features
+
+✅ Add new tasks  
+✅ Mark tasks as complete/incomplete  
+✅ Delete tasks  
+✅ Real-time task stats (Total, Completed, Pending)  
+✅ Clean UI with animations  
+✅ Error handling and loading states  
+✅ CORS-configured backend API  
+✅ Backend deployed on Render  
+
+---
+
+## 📦 Technologies Used
+
+**Frontend**
+- React (Vite)
+- Tailwind CSS
+- Lucide Icons
+- Axios
+
+**Backend**
+- Node.js
+- Express
+- CORS
+- Body-Parser
+
+---
+
+## 🛠️ How to Run the Application Manually (Locally)
+
+### 1 Clone the repository
+
+```bash
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
+```
+
+### 2 Run Backend
+
+```bash
+cd todo-backend
+npm install
+node server.js
+```
+
+### 3 Run Frontend
+
+```bash
+cd todo-frontend
+npm install
+npm run dev
+```
+
+### How to test the application
+
+1. Open the frontend in your browser at http://localhost:3000
+2. Add a new task
+3. Click on the task to mark it as complete
+4. Click on the refresh button to fetch the updated task list
+5. Delete a task
+6. Click on the refresh button to fetch the updated task list
+7. Click on the task to mark it as complete
+
+---
+
+## 📌 Deployment Notes
+
+- Backend is deployed on Render:
+    https://todo-backend-ve5i.onrender.com/tasks
+
+- Frontend is deployed Vercel
